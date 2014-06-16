@@ -16,6 +16,7 @@ shinyUI(
       numericInput('hp', 'Gross horsepower', 200, min = 50, max = 350, step = 5),
       numericInput('wt', 'Weight (lb/1000)', 3, min = 1.5, max = 5.5, step = 0.5),
       hr(),
+     
       submitButton('Submit')
     ),
     mainPanel(
