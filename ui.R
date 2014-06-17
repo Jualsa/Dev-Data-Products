@@ -8,7 +8,7 @@ shinyUI(
       h4('2. Select values for the predictors'),
       h4('3. Submit and get the prediction results'),
       hr(),
-      checkboxGroupInput("checkbox", label = h3("Select Predictors"), 
+      checkboxGroupInput("chbox", label = h3("Select Predictors"), 
                          choices = list("Cylinders" = "cyl", "Horsepower" = "hp", "Weight" = "wt")),
       hr(),
       h3('Select Values'),
